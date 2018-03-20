@@ -1,0 +1,5 @@
+Login: --tags @TestScenario -r features\step_definitions -r features\support --format pretty --format html --out TestReport.html
+#This profile can be run to get report in html format
+
+#To run the test case use the below command
+calabash-android run app-debug.apk --format pretty --format html --out TestReport.html
